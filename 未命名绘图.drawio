@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-17T10:34:38.384Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="6Dn0QUR7Wqb9sBteAxz7" version="24.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-05-20T02:23:53.604Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="REGddJP77n0vfsmK87v1" version="24.2.7" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="FLJo15ycvsVJn0UT2K2C-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="tXE0e38hGdNWlQ0zZdyC-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="&lt;div&gt;当前j机构下&lt;/div&gt;已平账&lt;div&gt;已请款&lt;/div&gt;&lt;div&gt;未计费&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="是否满足条件" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="270" y="260" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tXE0e38hGdNWlQ0zZdyC-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-11" target="tXE0e38hGdNWlQ0zZdyC-12" edge="1">
@@ -32,7 +32,7 @@
           <mxGeometry x="285" y="150" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tXE0e38hGdNWlQ0zZdyC-5" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="330" y="270" width="40" height="30" as="geometry" />
+          <mxGeometry x="315" y="330" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tXE0e38hGdNWlQ0zZdyC-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tXE0e38hGdNWlQ0zZdyC-9" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -114,6 +114,9 @@
         </mxCell>
         <mxCell id="RNlAhLMFgC47S3uArQtM-18" value="同步该机构下的商家外部账户到商家待结算表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="265" y="850" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3AwKx4C0bNp7WqpTVFaI-0" value="&lt;div&gt;1.当前j机构下&lt;/div&gt;&lt;div&gt;2.&lt;span style=&quot;background-color: initial;&quot;&gt;已平账&lt;/span&gt;&lt;/div&gt;&lt;div&gt;3.已请款&lt;/div&gt;&lt;div&gt;4.未计费、计费失败&lt;/div&gt;&lt;div style=&quot;&quot;&gt;5.当前时间-上个月开始时间内&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="385" y="250" width="160" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
